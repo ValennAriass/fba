@@ -1,0 +1,20 @@
+void setup(){ 
+  size(400,400);
+  background(200);
+  
+  fill(0,0,255);
+  ellipse(320,300,100,100);
+  
+  fill(0,255,0);
+  rect(265,50,100,100);
+  
+ fill(0);
+ textSize(15);
+text("Este es un cuadrado verde:",35,100); 
+
+fill(0,0,255);
+textSize(15);
+fill(0);
+text("Este es un ellipse azul:",35,300); 
+
+}
